@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-accent-400: #F59754;
+  --color-accent-500: #F27D26;
+  --color-accent-600: #D86A1D;
+
+  --font-sans: "Helvetica Neue", Arial, sans-serif, ui-sans-serif, system-ui;
+  --font-heading: "Helvetica Neue", Arial, sans-serif, ui-sans-serif, system-ui;
+  --font-mono: "Courier New", Courier, monospace;
+
+  /* Overriding standard radii to match the 12px glass card style from the design */
+  --radius-xl: 0.75rem;
+  --radius-2xl: 0.75rem;
+  --radius-3xl: 0.75rem;
+  
+  --color-stone-950-alpha: color-mix(in srgb, var(--color-stone-950) 80%, transparent);
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+  .dark {
+    --background: 0 0% 2%;  /* #050505 approx */
+    --foreground: 0 0% 100%; /* #ffffff */
+  }
+}
+
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #050505;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+}
