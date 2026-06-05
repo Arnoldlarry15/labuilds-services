@@ -5,7 +5,7 @@ import { Services } from '@/components/Services';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { Projects } from '@/components/Projects';
 import { Process } from '@/components/Process';
-import { Testimonials } from '@/components/Testimonials';
+import { NowWorkingOn } from '@/components/NowWorkingOn';
 import { FAQ } from '@/components/FAQ';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
@@ -20,7 +20,7 @@ export default function Home() {
       <WhyChooseUs />
       <Projects />
       <Process />
-      <Testimonials />
+      <NowWorkingOn />
       <FAQ />
       <Contact />
       <Footer />
