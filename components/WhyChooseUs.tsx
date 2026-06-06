@@ -7,7 +7,7 @@ const reasons = [
   {
     icon: <Target className="w-5 h-5 text-accent-500" />,
     title: "Personalized solutions",
-    desc: "No cookie-cutter templates. We solve your specific operational challenges."
+    desc: "No cookie-cutter templates. I solve your specific operational challenges."
   },
   {
     icon: <CheckCircle2 className="w-5 h-5 text-accent-500" />,
@@ -22,7 +22,7 @@ const reasons = [
   {
     icon: <TrendingUp className="w-5 h-5 text-accent-500" />,
     title: "Business-first approach",
-    desc: "We prioritize ROI, efficiency, and growth metrics over technical buzzwords."
+    desc: "I prioritize ROI, efficiency, and growth metrics over technical buzzwords."
   },
   {
     icon: <Handshake className="w-5 h-5 text-accent-500" />,
@@ -56,7 +56,7 @@ export function WhyChooseUs() {
           <div className="lg:w-1/2">
             <h2 className="text-4xl font-bold font-heading mb-6 text-white">Why Choose LA Builds</h2>
             <p className="text-slate-400 mb-12 text-lg">
-              We don&apos;t just write code; we build operational leverage. Our approach is grounded in solving actual business problems with intelligent, modern technology.
+              I don&apos;t just write code; I build operational leverage. My approach is grounded in solving actual business problems with intelligent, modern technology.
             </p>
             
             <div className="space-y-8">

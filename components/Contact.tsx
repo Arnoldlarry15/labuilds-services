@@ -41,7 +41,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Discovery</h4>
-                    <p className="text-sm text-slate-400">We analyze your needs</p>
+                    <p className="text-sm text-slate-400">I analyze your needs</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -50,7 +50,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Strategy</h4>
-                    <p className="text-sm text-slate-400">We propose a solution</p>
+                    <p className="text-sm text-slate-400">I propose a solution</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Execution</h4>
-                    <p className="text-sm text-slate-400">We build and deploy</p>
+                    <p className="text-sm text-slate-400">I build and deploy</p>
                   </div>
                 </div>
               </div>
@@ -78,12 +78,12 @@ export function Contact() {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">Message Received</h3>
-                  <p className="text-slate-400">Thank you for reaching out. We will get back to you shortly to schedule your consultation.</p>
+                  <p className="text-slate-400">Thank you for reaching out. I will get back to you shortly to schedule your consultation.</p>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="p-8 bg-black/40 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl">
                   <div className="text-xs font-mono tracking-[0.1em] uppercase text-accent-500 mb-4 block">Consultation Form</div>
-                  <h3 className="text-2xl font-semibold text-white mb-6">Contact Us</h3>
+                  <h3 className="text-2xl font-semibold text-white mb-6">Contact Me</h3>
                   
                   <div className="space-y-5">
                     <div>
@@ -126,7 +126,7 @@ export function Contact() {
                         id="description"
                         rows={4}
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:ring-2 focus:ring-accent-500 focus:border-transparent outline-none text-white transition-all resize-none placeholder:text-slate-600"
-                        placeholder="Tell us about the challenges you're facing..."
+                        placeholder="Tell me about the challenges you're facing..."
                       />
                     </div>
                     

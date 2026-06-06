@@ -35,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           >
             <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-md mx-auto leading-relaxed">
-              We help organizations automate repetitive work and unlock the power of AI through intelligent business systems.
+              I help organizations automate repetitive work and unlock the power of AI through intelligent business systems.
             </p>
           </motion.div>
 

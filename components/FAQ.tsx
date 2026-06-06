@@ -7,7 +7,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     q: "What types of businesses do you work with?",
-    a: "We partner with forward-thinking organizations ranging from agile startups to established enterprises that are looking to streamline operations, reduce manual overhead, or build custom software solutions to scale."
+    a: "I partner with forward-thinking organizations ranging from agile startups to established enterprises that are looking to streamline operations, reduce manual overhead, or build custom software solutions to scale."
   },
   {
     q: "Can AI help my business?",
@@ -15,15 +15,15 @@ const faqs = [
   },
   {
     q: "How long does a project take?",
-    a: "Project timelines vary widely based on scope. A targeted automation sprint might take 2-4 weeks, while a comprehensive custom software platform could take 3-6 months. We prioritize rapid delivery of core business value."
+    a: "Project timelines vary widely based on scope. A targeted automation sprint might take 2-4 weeks, while a comprehensive custom software platform could take 3-6 months. I prioritize rapid delivery of core business value."
   },
   {
     q: "Do you provide ongoing support?",
-    a: "Absolutely. We view our engagements as long-term partnerships. We offer ongoing maintenance, iteration, and strategic consulting to ensure the systems we build continue to deliver value."
+    a: "Absolutely. I view my engagements as long-term partnerships. I offer ongoing maintenance, iteration, and strategic consulting to ensure the systems I build continue to deliver value."
   },
   {
     q: "Can you improve existing systems?",
-    a: "Yes. A significant portion of our work involves modernizing legacy applications, developing custom API integrations to bridge existing tools, or layering AI capabilities onto existing infrastructure."
+    a: "Yes. A significant portion of my work involves modernizing legacy applications, developing custom API integrations to bridge existing tools, or layering AI capabilities onto existing infrastructure."
   }
 ];
 

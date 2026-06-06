@@ -60,7 +60,7 @@ export function Projects() {
           <div className="max-w-2xl">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-white">Innovation Portfolio</h2>
             <p className="text-xl text-slate-400">
-              A selection of our active projects and platforms pushing the boundaries of AI infrastructure and knowledge management.
+              A selection of my active projects and platforms pushing the boundaries of AI infrastructure and knowledge management.
             </p>
           </div>
         </div>

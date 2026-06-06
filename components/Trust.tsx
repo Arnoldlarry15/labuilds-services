@@ -34,7 +34,7 @@ export function Trust() {
           <div className="text-xs font-mono tracking-[0.1em] uppercase text-white/50 mb-4">Core Expertise</div>
           <h2 className="text-3xl font-bold font-heading mb-4 text-white">Engineering the Future of Work</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            We partner with forward-thinking organizations to build intelligent infrastructure that drives efficiency and growth.
+            I partner with forward-thinking organizations to build intelligent infrastructure that drives efficiency and growth.
           </p>
         </div>
 

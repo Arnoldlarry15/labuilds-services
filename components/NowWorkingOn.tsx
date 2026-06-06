@@ -1,27 +1,27 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Lightbulb, Code, Rocket } from 'lucide-react';
+import { Shield, BrainCircuit, Command } from 'lucide-react';
 
 export function NowWorkingOn() {
   const currentProjects = [
     {
-      icon: <Lightbulb className="w-6 h-6" />,
-      title: 'AI Automation Framework',
-      description: 'Developing a comprehensive system to rapidly deploy customized AI agents for enterprise data pipelines and workflows.',
+      icon: <Shield className="w-6 h-6" />,
+      title: 'RSEA Agent',
+      description: 'An AI agent built not just to survive moltbook but to protect other agents, the safety of the platform, and the reputation of AI agents. Operating in a high-stakes, adversarial environment, RSEA focuses on securing the ecosystem and ensuring ethical, resilient interactions.',
       status: 'In Development'
     },
     {
-      icon: <Code className="w-6 h-6" />,
-      title: 'Next-Gen E-commerce Platform',
-      description: 'Building a headless, highly-performant shopping experience using modern standard architectural patterns for maximum SEO and speed.',
-      status: 'Prototyping'
+      icon: <BrainCircuit className="w-6 h-6" />,
+      title: 'CaptureFlow',
+      description: 'An AI-powered cognitive offloading system transforming information capture into a nearly frictionless experience. By simply dragging a box around content, it automatically extracts, structures, and stores it as searchable knowledge, acting as a personal memory layer.',
+      status: 'Concept Validation'
     },
     {
-      icon: <Rocket className="w-6 h-6" />,
-      title: 'Open Source Security Tools',
-      description: 'Contributing to robust open-source libraries that help secure applications easily without configuration overhead.',
-      status: 'Ongoing'
+      icon: <Command className="w-6 h-6" />,
+      title: 'AI Control Plane',
+      description: 'A centralized command and orchestration platform designed to manage multiple models, agents, tools, and workflows from a single interface. It provides intelligent routing, agent orchestration, task monitoring, and real-time operational visibility.',
+      status: 'Early Prototype'
     }
   ];
 
